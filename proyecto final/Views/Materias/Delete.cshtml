@@ -1,0 +1,46 @@
+﻿@model proyecto_final.Models.Materia
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Estas seguro de borrar?</h3>
+<div>
+    <h4>Mesa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Codigo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Codigo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroCreditos)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumeroCreditos)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroHoras)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumeroHoras)
+    </dl>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-actions no-color">
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary" })
+        </div>
+    }
+</div>

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<proyecto_final.Models.Materia>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+<div>
+    @Html.ActionLink("Create", "Create", null, new {@class = "btn btn-success"})
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IdentificadorMateria)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Codigo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumeroCreditos)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumeroHoras)
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdentificadorMateria)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Codigo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeroCreditos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeroHoras)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.IdentificadorMateria }, new {@class = "btn btn-warning"}) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.IdentificadorMateria }, new {@class = "btn btn-danger"})
+            </td>
+        </tr>
+    }
+</table>
