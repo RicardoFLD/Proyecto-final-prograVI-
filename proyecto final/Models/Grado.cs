@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using proyecto_final.Models;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 public class Grado
 {
@@ -9,6 +11,7 @@ public class Grado
     [StringLength(100)]
     public string Nombre { get; set; }
 
-    [StringLength(250)]
+    [Required]
     public string Descripcion { get; set; }
+    public virtual ICollection<Carreras> Carreras { get; set; }
 }

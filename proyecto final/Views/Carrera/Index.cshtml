@@ -1,0 +1,51 @@
+﻿@model IEnumerable<proyecto_final.Models.Carreras>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div>
+    @Html.ActionLink("Create", "Create", null, new { @class = "btn btn-success" })
+</div>
+<table class="table">
+    <tr>
+        <th>
+            Id
+        </th>
+        <th>
+           Grado
+        </th>
+        <th>
+            Nombre
+        </th>
+        <th>
+            Descripcion
+        </th>
+    </tr>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.IdentificadorCarrera
+                </td>
+                <td>
+                     @item.Id_Grado <!--Falta agregar que salga aqui el nombre del grado-->>
+                </td>
+                <td>
+                    @item.Nombre
+                </td>
+                <td>
+                    @item.Descripcion
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.IdentificadorCarrera }, new { @class = "btn btn-warning" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.IdentificadorCarrera }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>

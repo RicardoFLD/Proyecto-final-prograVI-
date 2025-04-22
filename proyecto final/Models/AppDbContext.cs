@@ -9,4 +9,5 @@ public class AppDbContext : DbContext
     }
     public DbSet<Grado> Grados { get; set; }
     public DbSet<Materia> Materias { get; set; }
+    public DbSet<Carreras> Carreras { get; set; }
 }
