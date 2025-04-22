@@ -33,7 +33,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 220,
+          "DockedWidth": 237,
           "SelectedChildIndex": 3,
           "Children": [
             {
@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "proyecto final\\Views\\Carrera\\Index.cshtml",
               "ToolTip": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Carrera\\Index.cshtml",
               "RelativeToolTip": "proyecto final\\Views\\Carrera\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-22T03:27:19.927Z",
               "EditorCaption": ""
@@ -88,7 +88,7 @@
           ]
         },
         {
-          "DockedWidth": 220,
+          "DockedWidth": 203,
           "SelectedChildIndex": 0,
           "Children": [
             {
