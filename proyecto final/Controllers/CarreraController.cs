@@ -15,7 +15,7 @@ namespace proyecto_final.Controllers
         // GET: Carrera
         public ActionResult Index()
         {
-            var carreras = db.Carreras.Include(r => r.Grado);
+            var carreras = db.Carreras.Include(r => r.Grado).ToList();
             return View(db.Carreras.ToList());
         }
         //Valida el nombre de la carrera

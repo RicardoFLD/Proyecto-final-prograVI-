@@ -13,14 +13,13 @@ namespace proyecto_final.Models
     {
         [Key]
         public int IdentificadorCarrera { get; set; }
-        [Required]
-        [ForeignKey("Grado")]
-        public int Id_Grado { get; set; }
         [Required(ErrorMessage = "Debe ingresar un nombre único de carrera.")]
         [Remote("ValidarNombre", "Carreras", ErrorMessage = "El nombre de la carrera ya existe.")]
         public string Nombre { get; set; }
         [Required]
         public string Descripcion { get; set; }
+        public int Id_Grado { get; set; }
+        [ForeignKey("Id_Grado")]
         public virtual Grado Grado { get; set; }
     }
 }
