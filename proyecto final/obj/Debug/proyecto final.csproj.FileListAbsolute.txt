@@ -92,5 +92,5 @@ C:\Users\marco\Source\Repos\Proyecto-final-prograVI-\proyecto final\bin\es\Syste
 C:\Users\marco\Source\Repos\Proyecto-final-prograVI-\proyecto final\obj\Debug\proyecto.6830A12C.Up2Date
 C:\Users\marco\Source\Repos\Proyecto-final-prograVI-\proyecto final\obj\Debug\proyecto final.dll
 C:\Users\marco\Source\Repos\Proyecto-final-prograVI-\proyecto final\obj\Debug\proyecto final.pdb
-C:\Users\marco\Source\Repos\Proyecto-final-prograVI-\proyecto final\obj\Debug\proyecto_final.Migrations.InitialCreate.resources
-C:\Users\marco\Source\Repos\Proyecto-final-prograVI-\proyecto final\obj\Debug\proyecto final.csproj.GenerateResource.cache
+C:\Users\marco\source\repos\Proyecto-final-prograVI-\proyecto final\obj\Debug\proyecto_final.Migrations.InitialCreate.resources
+C:\Users\marco\source\repos\Proyecto-final-prograVI-\proyecto final\obj\Debug\proyecto final.csproj.GenerateResource.cache

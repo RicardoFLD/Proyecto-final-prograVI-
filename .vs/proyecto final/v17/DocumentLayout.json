@@ -7,36 +7,32 @@
       "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\views\\carrera\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\controllers\\carreracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\controllers\\carreracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|c:\\users\\marco\\source\\repos\\proyecto-final-progravi-\\proyecto final\\views\\materias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\views\\materias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\models\\carreras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\models\\carreras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\controllers\\carreracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\controllers\\carreracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\models\\grado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\models\\grado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|c:\\users\\marco\\source\\repos\\proyecto-final-progravi-\\proyecto final\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|c:\\users\\marco\\source\\repos\\proyecto-final-progravi-\\proyecto final\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|c:\\users\\marco\\source\\repos\\proyecto-final-progravi-\\proyecto final\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\controllers\\materiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\controllers\\materiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\views\\materias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\views\\materias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,20 +42,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "proyecto final\\Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "proyecto final\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T23:08:39.409Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -75,20 +70,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Grado.cs",
               "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Models\\Grado.cs",
               "RelativeDocumentMoniker": "proyecto final\\Models\\Grado.cs",
@@ -96,8 +79,7 @@
               "RelativeToolTip": "proyecto final\\Models\\Grado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T22:25:02.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T22:25:02.2Z"
             },
             {
               "$type": "Document",
@@ -107,14 +89,14 @@
               "RelativeDocumentMoniker": "proyecto final\\Views\\Carrera\\Index.cshtml",
               "ToolTip": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Carrera\\Index.cshtml",
               "RelativeToolTip": "proyecto final\\Views\\Carrera\\Index.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-22T03:27:19.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CarreraController.cs",
               "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Controllers\\CarreraController.cs",
               "RelativeDocumentMoniker": "proyecto final\\Controllers\\CarreraController.cs",
@@ -122,8 +104,7 @@
               "RelativeToolTip": "proyecto final\\Controllers\\CarreraController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T00:09:29.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T00:09:29.32Z"
             },
             {
               "$type": "Document",
@@ -135,14 +116,13 @@
               "RelativeToolTip": "proyecto final\\Models\\Carreras.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAvwBcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T23:48:04.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T23:48:04.094Z"
             }
           ]
         },
         {
           "DockedWidth": 203,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -158,19 +138,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Materias\\Index.cshtml",
               "RelativeDocumentMoniker": "proyecto final\\Views\\Materias\\Index.cshtml",
               "ToolTip": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Materias\\Index.cshtml",
               "RelativeToolTip": "proyecto final\\Views\\Materias\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T03:28:29.515Z"
+              "WhenOpened": "2025-04-22T03:28:29.515Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Materia.cs",
               "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Models\\Materia.cs",
               "RelativeDocumentMoniker": "proyecto final\\Models\\Materia.cs",
@@ -178,8 +159,7 @@
               "RelativeToolTip": "proyecto final\\Models\\Materia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T23:51:30.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T23:51:30.216Z"
             }
           ]
         }
