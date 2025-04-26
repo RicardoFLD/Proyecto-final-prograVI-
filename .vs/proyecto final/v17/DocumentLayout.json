@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|c:\\users\\marco\\source\\repos\\proyecto-final-progravi-\\proyecto final\\views\\carrera\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\views\\carrera\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|c:\\users\\marco\\source\\repos\\proyecto-final-progravi-\\proyecto final\\views\\materias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\views\\materias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|c:\\users\\marco\\source\\repos\\proyecto-final-progravi-\\proyecto final\\models\\carreras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\models\\carreras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|c:\\users\\marco\\source\\repos\\proyecto-final-progravi-\\proyecto final\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\controllers\\carreracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\controllers\\carreracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\views\\carrera\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\views\\carrera\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\views\\materias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\views\\materias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|c:\\users\\marco\\source\\repos\\proyecto-final-progravi-\\proyecto final\\views\\carrera\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\views\\carrera\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\controllers\\materiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\controllers\\materiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\views\\materias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\views\\materias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\controllers\\carreracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4AB49C-B71B-425B-A32C-AAEE33D8980D}|proyecto final\\proyecto final.csproj|solutionrelative:proyecto final\\controllers\\carreracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 237,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Carrera\\Delete.cshtml",
+              "RelativeDocumentMoniker": "proyecto final\\Views\\Carrera\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Carrera\\Delete.cshtml",
+              "RelativeToolTip": "proyecto final\\Views\\Carrera\\Delete.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T22:10:56.407Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -54,13 +63,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Carrera\\Edit.cshtml",
+              "RelativeDocumentMoniker": "proyecto final\\Views\\Carrera\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Carrera\\Edit.cshtml",
+              "RelativeToolTip": "proyecto final\\Views\\Carrera\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T21:23:56.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Carreras.cs",
               "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Models\\Carreras.cs",
               "RelativeDocumentMoniker": "proyecto final\\Models\\Carreras.cs",
               "ToolTip": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Models\\Carreras.cs",
               "RelativeToolTip": "proyecto final\\Models\\Carreras.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T02:26:35.751Z",
               "EditorCaption": ""
@@ -73,75 +95,41 @@
               "RelativeDocumentMoniker": "proyecto final\\Views\\Carrera\\Create.cshtml",
               "ToolTip": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Carrera\\Create.cshtml",
               "RelativeToolTip": "proyecto final\\Views\\Carrera\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T20:25:38.231Z"
+              "WhenOpened": "2025-04-23T20:25:38.231Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CarreraController.cs",
               "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Controllers\\CarreraController.cs",
               "RelativeDocumentMoniker": "proyecto final\\Controllers\\CarreraController.cs",
               "ToolTip": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Controllers\\CarreraController.cs",
               "RelativeToolTip": "proyecto final\\Controllers\\CarreraController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDwAAABnAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAADgvwoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T00:09:29.32Z"
+              "WhenOpened": "2025-04-22T00:09:29.32Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 203,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 237,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Materias\\Create.cshtml",
-              "RelativeDocumentMoniker": "proyecto final\\Views\\Materias\\Create.cshtml",
-              "ToolTip": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Materias\\Create.cshtml",
-              "RelativeToolTip": "proyecto final\\Views\\Materias\\Create.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAC0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T21:19:07.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MateriasController.cs",
-              "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Controllers\\MateriasController.cs",
-              "RelativeDocumentMoniker": "proyecto final\\Controllers\\MateriasController.cs",
-              "ToolTip": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Controllers\\MateriasController.cs",
-              "RelativeToolTip": "proyecto final\\Controllers\\MateriasController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwGsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T00:12:58.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Materias\\Index.cshtml",
-              "RelativeDocumentMoniker": "proyecto final\\Views\\Materias\\Index.cshtml",
-              "ToolTip": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Materias\\Index.cshtml",
-              "RelativeToolTip": "proyecto final\\Views\\Materias\\Index.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAADQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T03:28:29.515Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Materia.cs",
-              "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Models\\Materia.cs",
-              "RelativeDocumentMoniker": "proyecto final\\Models\\Materia.cs",
-              "ToolTip": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Models\\Materia.cs",
-              "RelativeToolTip": "proyecto final\\Models\\Materia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T23:51:30.216Z",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Materias\\Delete.cshtml",
+              "RelativeDocumentMoniker": "proyecto final\\Views\\Materias\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\marco\\source\\repos\\Proyecto-final-prograVI-\\proyecto final\\Views\\Materias\\Delete.cshtml",
+              "RelativeToolTip": "proyecto final\\Views\\Materias\\Delete.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T22:09:50.931Z",
               "EditorCaption": ""
             }
           ]

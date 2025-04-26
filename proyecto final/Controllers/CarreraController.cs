@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using proyecto_final.Models;
 using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
 
 namespace proyecto_final.Controllers
 {
@@ -61,30 +62,51 @@ namespace proyecto_final.Controllers
             ViewBag.Grados = new SelectList(db.Grados, "IdentificadorGrado", "Nombre", carrera.Id_Grado);
             return View(carrera);
         }
+        // GET: Carrera/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
             Carreras carrera = db.Carreras.Find(id);
+
             if (carrera == null)
             {
                 return HttpNotFound();
             }
+
+            // Corregir usando el nombre correcto de la propiedad
+            ViewBag.Grados = new SelectList(
+                db.Grados.ToList(),
+                "IdentificadorGrado",  // Valor real de la PK
+                "Nombre",
+                carrera.Id_Grado
+            );
+
             return View(carrera);
         }
-        // POST: Carreras/Edit/5
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "IdentificadorCarrera,Id_Grado,Nombre,Descripcion")] Carreras carrera)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(carrera).State = System.Data.Entity.EntityState.Modified;
+                db.Entry(carrera).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+
+            // Recargar el SelectList con la propiedad correcta
+            ViewBag.Grados = new SelectList(
+                db.Grados.ToList(),
+                "IdentificadorGrado",
+                "Nombre",
+                carrera.Id_Grado
+            );
+
             return View(carrera);
         }
 
