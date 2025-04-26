@@ -1,0 +1,45 @@
+﻿@model proyecto_final.Models.Carreras
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Create</h2>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+        <div>
+            @Html.DropDownListFor(
+                model => model.Id_Grado,  // Changed to foreign key property
+                (SelectList)ViewBag.Grados,
+                "-- Select Grado --",
+                new { @class = "form-select" }
+            )
+            @Html.ValidationMessageFor(model => model.Id_Grado, "", new { @class = "text-danger" })
+        </div>
+
+            <!-- Nombre field with remote validation -->
+            <div>
+                @Html.LabelFor(model => model.Nombre, new { @class = "form-label" })
+                @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.Descripcion, htmlAttributes: new { @class = "form-label" })
+                @Html.TextBoxFor(model => model.Descripcion, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Descripcion, "", new { @class = "text-danger" })
+            </div>
+            <hr />
+            <div>
+                <input type="submit" value="Guardar" class="btn btn-success" />
+                @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary" })
+            </div>
+        }
+    </div>
+</div>
+@section Scripts{
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+}

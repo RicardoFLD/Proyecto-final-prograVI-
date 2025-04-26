@@ -19,11 +19,11 @@ namespace proyecto_final.Controllers
             return View(db.Carreras.ToList());
         }
         //Valida el nombre de la carrera
-        public JsonResult ValidarNombre(string nombre)
+       /* public JsonResult ValidarNombre(string nombre)
         {
-            var existe = db.Carreras.Any(m => m.Nombre == nombre);
+            bool existe = db.Carreras.Any(m => m.Nombre == nombre);
             return Json(!existe, JsonRequestBehavior.AllowGet);
-        }
+        }*/
 
         public ActionResult Details(int? id)
         {
@@ -41,24 +41,24 @@ namespace proyecto_final.Controllers
         // GET: Carreras/Create
         public ActionResult Create()
         {
+            ViewBag.Grados = new SelectList(db.Grados, "IdentificadorGrado", "Nombre");
             return View();
         }
 
         //Post: Carreras/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "IdentificadorCarrera,Id_Grado,Nombre,Descripcion")] Carreras carrera)
+        public ActionResult Create(Carreras carrera)
         {
-            if (db.Carreras.Any(m => m.Nombre.ToLower() == carrera.Nombre.ToLower()))
-            {
-                ModelState.AddModelError("Nombre", "El nombre de la carrera ya existe.");
-            }
             if (ModelState.IsValid)
             {
                 db.Carreras.Add(carrera);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+
+            // Repopulate with GradoId instead of navigation property
+            ViewBag.Grados = new SelectList(db.Grados, "IdentificadorGrado", "Nombre", carrera.Id_Grado);
             return View(carrera);
         }
         public ActionResult Edit(int? id)

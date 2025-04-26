@@ -13,8 +13,9 @@ namespace proyecto_final.Models
     {
         [Key]
         public int IdentificadorCarrera { get; set; }
-        [Required(ErrorMessage = "Debe ingresar un nombre único de carrera.")]
-        [Remote("ValidarNombre", "Carreras", ErrorMessage = "El nombre de la carrera ya existe.")]
+        /*[Required(ErrorMessage = "Debe ingresar un nombre único de carrera.")]
+        [Remote("ValidarNombre", "Carreras", ErrorMessage = "El nombre de la carrera ya existe.")]*/
+        [Required]
         public string Nombre { get; set; }
         [Required]
         public string Descripcion { get; set; }

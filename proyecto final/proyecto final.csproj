@@ -212,6 +212,9 @@
     <Content Include="Views\Materias\Edit.cshtml" />
     <Content Include="Views\Materias\Delete.cshtml" />
     <Content Include="Views\Carrera\Index.cshtml" />
+    <Content Include="Views\Carrera\Create.cshtml" />
+    <Content Include="Views\Carrera\Delete.cshtml" />
+    <Content Include="Views\Carrera\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
