@@ -134,6 +134,7 @@
     <Compile Include="App_Start\BundleConfig2.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AlumnosController.cs" />
     <Compile Include="Controllers\CarreraController.cs" />
     <Compile Include="Controllers\GradoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -146,10 +147,14 @@
       <DependentUpon>202504230257414_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Alumno.cs" />
     <Compile Include="Models\AppDbContext.cs" />
+    <Compile Include="Models\Canton.cs" />
     <Compile Include="Models\Carreras.cs" />
+    <Compile Include="Models\Distrito.cs" />
     <Compile Include="Models\Grado.cs" />
     <Compile Include="Models\Materia.cs" />
+    <Compile Include="Models\Provincia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -215,6 +220,10 @@
     <Content Include="Views\Carrera\Create.cshtml" />
     <Content Include="Views\Carrera\Delete.cshtml" />
     <Content Include="Views\Carrera\Edit.cshtml" />
+    <Content Include="Views\Alumnos\Index.cshtml" />
+    <Content Include="Views\Alumnos\Create.cshtml" />
+    <Content Include="Views\Alumnos\Edit.cshtml" />
+    <Content Include="Views\Alumnos\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

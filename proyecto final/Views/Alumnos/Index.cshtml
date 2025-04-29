@@ -1,0 +1,86 @@
+﻿@model IEnumerable<proyecto_final.Models.Alumno>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div>
+    @Html.ActionLink("Create", "Create", null, new { @class = "btn btn-success" })
+</div>
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Fecha Ingreso</th>
+        <th>Cedula</th>
+        <th>Genero</th>
+        <th>Fecha Nacimiento</th>
+        <th>Nombre</th>
+        <th>Primer Apellido</th>
+        <th>Segundo Apellido</th>
+        <th>Direccion</th>
+        <th>Telefono Principal</th>
+        <th>Telefono Secundario</th>
+        <th>Correo</th>
+        <th>Provincia</th>
+        <th>Canton</th>
+        <th>Distrito</th>
+    </tr>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.IdentificadorAlumno
+                </td>
+                <td>
+                    @item.Fecha_Ingreso
+                </td>
+                <td>
+                    @item.Cedula
+                </td>
+                <td>
+                    @item.Genero
+                </td>
+                <td>
+                    @item.FechaNacimiento
+                </td>
+                <td>
+                    @item.Nombre
+                </td>
+                <td>
+                    @item.PrimerApellido
+                </td>
+                <td>
+                    @item.SegundoApellido
+                </td>
+                <td>
+                    @item.DireccionFisica
+                </td>
+                <td>
+                    @item.TelefonoPrincipal
+                </td>
+                <td>
+                    @item.TelefonoSecundario
+                </td>
+                <td>
+                    @item.CorreoElectronico
+                </td>
+                <td>
+                    @item.Provincia.Nombre
+                </td>
+                <td>
+                    @item.Canton.Nombre
+                </td>
+                <td>
+                    @item.Distrito.Nombre
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.IdentificadorAlumno }, new { @class = "btn btn-warning" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.IdentificadorAlumno }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

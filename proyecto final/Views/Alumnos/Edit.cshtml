@@ -1,0 +1,115 @@
+﻿@model proyecto_final.Models.Alumno
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-control">
+        <h4>Alumno</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.IdentificadorAlumno)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Fecha_Ingreso, new { @class = "form-label" })
+            @Html.EditorFor(model => model.Fecha_Ingreso, new { @class = "form-control", type = "date" })
+            @Html.ValidationMessageFor(model => model.Fecha_Ingreso, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            @Html.LabelFor(model => model.Cedula, new { @class = "form-label" })
+            @Html.EditorFor(model => model.Cedula, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Cedula, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            @Html.LabelFor(model => model.Genero, new { @class = "form-label" })
+            @Html.DropDownListFor(
+                model => model.Genero,
+                new SelectList(new[] { "M", "F" }), // Valores como strings
+                "-- Seleccione el género --",
+                new { @class = "form-control" }
+            )
+            @Html.ValidationMessageFor(model => model.Genero)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.FechaNacimiento, new { @class = "form-label" })
+            @Html.EditorFor(model => model.FechaNacimiento, new { @class = "form-control", type = "date" })
+            @Html.ValidationMessageFor(model => model.FechaNacimiento, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            @Html.LabelFor(model => model.Nombre, new { @class = "form-label" })
+            @Html.EditorFor(model => model.Nombre, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            @Html.LabelFor(model => model.PrimerApellido, new { @class = "form-label" })
+            @Html.EditorFor(model => model.PrimerApellido, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.PrimerApellido, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            @Html.LabelFor(model => model.SegundoApellido, new { @class = "form-label" })
+            @Html.EditorFor(model => model.SegundoApellido, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.SegundoApellido, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            @Html.LabelFor(model => model.DireccionFisica, new { @class = "form-label" })
+            @Html.EditorFor(model => model.DireccionFisica, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.DireccionFisica, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            @Html.LabelFor(model => model.TelefonoPrincipal, new { @class = "form-label" })
+            @Html.EditorFor(model => model.TelefonoPrincipal, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.TelefonoPrincipal, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            @Html.LabelFor(model => model.TelefonoSecundario, new { @class = "form-label" })
+            @Html.EditorFor(model => model.TelefonoSecundario, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.TelefonoSecundario, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            @Html.LabelFor(model => model.CorreoElectronico, new { @class = "form-label" })
+            @Html.EditorFor(model => model.CorreoElectronico, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.CorreoElectronico, "", new { @class = "text-danger" })
+        </div>
+        <div>
+            @Html.LabelFor(model => model.IdentificadorProvincia)
+            @Html.DropDownListFor(
+                model => model.IdentificadorProvincia,
+                (SelectList)ViewBag.Provincias,
+                "-- Seleccione Provincia --",
+                new { @class = "form-control" }
+            )
+            @Html.ValidationMessageFor(model => model.IdentificadorProvincia)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.IdentificadorCanton)
+            @Html.DropDownListFor(
+                model => model.IdentificadorCanton,
+                (SelectList)ViewBag.Cantones,
+                "-- Seleccione Canton --",
+                new { @class = "form-control" }
+            )
+            @Html.ValidationMessageFor(model => model.IdentificadorCanton)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.IdentificadorDistrito)
+            @Html.DropDownListFor(
+                model => model.IdentificadorDistrito,
+                (SelectList)ViewBag.Distritos,
+                "-- Seleccione Distrito --",
+                new { @class = "form-control" }
+            )
+            @Html.ValidationMessageFor(model => model.IdentificadorDistrito)
+        </div>
+        <hr />
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-success"/>
+            </div>
+        </div>
+    </div>
+}

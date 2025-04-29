@@ -58,7 +58,6 @@ namespace proyecto_final.Controllers
                 return RedirectToAction("Index");
             }
 
-            // Repopulate with GradoId instead of navigation property
             ViewBag.Grados = new SelectList(db.Grados, "IdentificadorGrado", "Nombre", carrera.Id_Grado);
             return View(carrera);
         }

@@ -1,0 +1,112 @@
+﻿@model proyecto_final.Models.Alumno
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+
+<div class="row justify-content-center">
+    <div>
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            <div>
+                @Html.LabelFor(model => model.Fecha_Ingreso, new { @class = "form-label" })
+                @Html.TextBoxFor(model => model.Fecha_Ingreso, new { @class = "form-control", type = "date" })
+                @Html.ValidationMessageFor(model => model.Fecha_Ingreso, "", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.Cedula, new { @class = "form-label" })
+                @Html.TextBoxFor(model => model.Cedula, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Cedula, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Genero, new { @class = "form-label" })
+                @Html.DropDownListFor(
+                    model => model.Genero,
+                    (SelectList)ViewBag.Generos,
+                    "Seleccione un género",
+                    new { @class = "form-control" }
+                )
+                @Html.ValidationMessageFor(model => model.Genero, "", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.FechaNacimiento, new { @class = "form-label" })
+                @Html.TextBoxFor(model => model.FechaNacimiento, new { @class = "form-control", type = "date" })
+                @Html.ValidationMessageFor(model => model.FechaNacimiento, "", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.Nombre, new { @class = "form-label" })
+                @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.PrimerApellido, new { @class = "form-label" })
+                @Html.TextBoxFor(model => model.PrimerApellido, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.PrimerApellido, "", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.SegundoApellido, new { @class = "form-label" })
+                @Html.TextBoxFor(model => model.SegundoApellido, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.SegundoApellido, "", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.DireccionFisica, new { @class = "form-label" })
+                @Html.TextBoxFor(model => model.DireccionFisica, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.DireccionFisica, "", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.TelefonoPrincipal, new { @class = "form-label" })
+                @Html.TextBoxFor(model => model.TelefonoPrincipal, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.TelefonoPrincipal, "", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.TelefonoSecundario, new { @class = "form-label" })
+                @Html.TextBoxFor(model => model.TelefonoSecundario, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.TelefonoSecundario, "", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.LabelFor(model => model.CorreoElectronico, new { @class = "form-label" })
+                @Html.TextBoxFor(model => model.CorreoElectronico, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.CorreoElectronico, "", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.DropDownListFor(
+                    model => model.IdentificadorProvincia,
+                    (SelectList)ViewBag.Provincias,
+                    "-- Select Provincia --",
+                    new { @class = "form-select" }
+                )
+                @Html.ValidationMessageFor(model => model.IdentificadorProvincia, "", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.DropDownListFor(
+                    model => model.IdentificadorCanton,
+                    (SelectList)ViewBag.Cantones,
+                    "-- Select Canton --",
+                    new { @class = "form-select" }
+                )
+                @Html.ValidationMessageFor(model => model.IdentificadorCanton, "", new { @class = "text-danger" })
+            </div>
+            <div>
+                @Html.DropDownListFor(
+                    model => model.IdentificadorDistrito,
+                    (SelectList)ViewBag.Distritos,
+                    "-- Select Distrito --",
+                    new { @class = "form-select" }
+                )
+                @Html.ValidationMessageFor(model => model.IdentificadorDistrito, "", new { @class = "text-danger" })
+            </div>
+            <hr />
+            <div>
+                <input type="submit" value="Guardar" class="btn btn-success" />
+                @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary" })
+            </div>
+        }
+    </div>
+</div>
+@section Scripts{
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+}

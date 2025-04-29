@@ -10,4 +10,8 @@ public class AppDbContext : DbContext
     public DbSet<Grado> Grados { get; set; }
     public DbSet<Materia> Materias { get; set; }
     public DbSet<Carreras> Carreras { get; set; }
+    public DbSet<Distrito> Distritos { get; set; }
+    public DbSet<Canton> Cantones { get; set; }
+    public DbSet<Provincia> Provincias { get; set; }
+    public DbSet<Alumno> Alumnos { get; set; }
 }
